@@ -63,7 +63,7 @@
          */
         public function provides()
         {
-            return [WebServices::class];
+            return [Fa::class];
         }
     
         /**
@@ -73,7 +73,7 @@
          */
         protected function getConfigPath()
         {
-            return config_path('upwebservices.php');
+            return config_path('fa.php');
         }
     
     }
