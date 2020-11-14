@@ -13,17 +13,17 @@
     },
     "autoload": {
         "psr-4": {
-            "Up\\WsLaravel\\": "src/"
+            "Regnilk\\FaLaravel\\": "src/"
         }
     },
     "minimum-stability": "dev",
     "extra": {
         "laravel": {
             "providers": [
-                "Up\\WsLaravel\\ServiceProvider"
+                "Regnilk\\FaLaravel\\ServiceProvider"
             ],
             "aliases": {
-                "WebServices": "Up\\WsLaravel\\Facade"
+                "Fa": "Regnilk\\FaLaravel\\Facade"
             }
         }
     }
