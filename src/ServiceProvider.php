@@ -49,7 +49,7 @@
                 $this->app['config']->set('fa', require __DIR__ . '/../config/fa.php');
             }
         
-            $this->loadViewsComponentsAs('fa', [Fa::class]);
+            $this->loadViewComponentsAs('fa', [Fa::class]);
         
             /*$this->publishes([
                 __DIR__ . '/../resources/views' => resource_path('views/vendor/upwebservices'),
