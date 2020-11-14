@@ -1,0 +1,30 @@
+{
+    "name": "regnilk/fa-laravel",
+    "description": "Composant Laravel pour Font-Awesome",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Regnilk",
+            "email": ""
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Up\\WsLaravel\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Up\\WsLaravel\\ServiceProvider"
+            ],
+            "aliases": {
+                "WebServices": "Up\\WsLaravel\\Facade"
+            }
+        }
+    }
+}
