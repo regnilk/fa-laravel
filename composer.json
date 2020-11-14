@@ -20,10 +20,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Regnilk\\fa-laravel\\ServiceProvider"
+                "Regnilk\\FaLaravel\\ServiceProvider"
             ],
             "aliases": {
-                "Fa": "Regnilk\\fa-laravel\\Facade"
+                "Fa": "Regnilk\\FaLaravel\\Facade"
             }
         }
     }

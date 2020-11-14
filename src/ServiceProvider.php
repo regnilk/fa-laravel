@@ -1,6 +1,6 @@
 <?php
     
-    namespace Up\WsLaravel;
+    namespace Regnilk\FaLaravel;
     
     use Illuminate\Contracts\Support\DeferrableProvider;
     use Regnilk\FaLaravel\Components\Fa;
