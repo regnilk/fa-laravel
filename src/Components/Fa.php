@@ -25,7 +25,7 @@
          */
         public function render()
         {
-            return view('components.fa');
+            return view('fa');
         }
     
         public function grabIcon($icon)
