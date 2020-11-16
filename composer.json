@@ -1,7 +1,10 @@
 {
     "name": "regnilk/fa-laravel",
-    "description": "Composant Laravel pour Font-Awesome",
+    "description": "Laravel component for FontAwesome integration with blade",
     "type": "library",
+    "keywords": ["laravel", "font-awesome", "icon"],
+    "license": "MIT",
+    "homepage": "https://gitlab.com/Regnilk/fa-laravel",
     "authors": [
         {
             "name": "Regnilk",
