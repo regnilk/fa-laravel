@@ -46,7 +46,7 @@ To display an icon, just call it this way :
     
 You can customize this component like any other : 
 ```html
-    <x-fa icon="close" class="text-color: danger" style="font-weight: bold;" title="Ciclk here to close" />
+    <x-fa icon="close" class="text-danger" style="font-weight: bold;" title="Ciclk here to close" />
 ```
 
 ## Contact
