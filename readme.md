@@ -13,6 +13,7 @@ Laravel component for FontAwesome integration with blade
 ## Installation
 
 Install the package via Composer:
+
 ```sh
     $ composer require regnilk/fa-laravel
 ```
@@ -22,6 +23,7 @@ The package service provider will be registered automatically.
 ## Configuration
 
 You need to publish the configuration file to set the icons you need
+
 ```php    
     php artisan vendor:publish --provider="Regnilk\FaLaravel\FaServiceProvider"
 ```
@@ -40,11 +42,13 @@ It will provide you a dictionary of icons shortcuts.
 ## Usage
 
 To display an icon, just call it this way : 
+
 ```html
     <x-fa icon="ok" />
 ```
     
 You can customize this component like any other : 
+
 ```html
     <x-fa icon="close" class="text-danger" style="font-weight: bold;" title="Ciclk here to close" />
 ```
