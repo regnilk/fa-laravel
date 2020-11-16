@@ -55,6 +55,6 @@ Please use [GitLab](https://gitlab.com/Regnilk/fa-laravel) for making comments o
 
 ## License and Copyright
 
-[Fa-Laravel](https://gitlab.com/Regnilk/fa-laravel) written by Regnilk and is released under the [MIT License](LICENSE.md).
+[Fa-Laravel](https://gitlab.com/Regnilk/fa-laravel) written by Regnilk and is released under the [MIT License](LICENSE).
 
 Copyright &copy; 2020 Regnilk
