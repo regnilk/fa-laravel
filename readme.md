@@ -43,7 +43,7 @@ You need to publish the configuration file to set the icons you need
     php artisan vendor:publish --provider="Regnilk\FaLaravel\FaServiceProvider"
 ```
     
-Then edit the array returned in app/config/fa.php this way :
+Then edit the array returned in app/config/fa-laravel.php this way :
 
 ```php
     return [
@@ -74,7 +74,7 @@ Please use [GitHub](https://github.com/regnilk/fa-laravel) for making comments o
 
 ## License
 
-[Fa-Laravel](https://github.com/regnilk/fa-laravel) written by Regnilk and is released under the [MIT License](LICENSE).
+[Fa-Laravel](https://github.com/regnilk/fa-laravel) written by Regnilk and released under the [MIT License](LICENSE).
 
 ## Copyright
 
