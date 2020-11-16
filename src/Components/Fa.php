@@ -28,6 +28,13 @@
             return view('fa-laravel::fa');
         }
     
+        /**
+         * Return icon from configuration using shortcut icon name
+         *
+         * @param $icon - the icon shortcut name
+         *
+         * @return string the FontAwesome icon
+         */
         public function grabIcon($icon)
         {
             return config('fa.' . $icon);

@@ -1,67 +1,10 @@
 <?php
     
     /**
-     * Correspondance avec les icônes de font-awesome
-     *
-     * Utilisé par le composant Fa
+     * List of shortcuts for FontAwesome (Regnilk\fa-laravel)
      */
     
-    
     return [
-        'utilisateur'         => 'fas fa-user',
-        'utilisateurs'        => 'fas fa-users',
-        'utilisateurs_tous'   => 'fas fa-address-book',
-        'administrateur'      => 'fas fa-cog',
-        'gestionnaire'        => 'fas fa-user-circle',
-        'connexion'           => 'fas fa-sign-in-alt',
-        'deconnexion'         => 'fas fa-sign-out-alt',
-        'recherche'           => 'fas fa-search',
-        'recherche_avancee'   => 'fas fa-search-plus',
-        'administration'      => 'fas fa-sliders-h',
-        'role'                => 'fas fa-key',
-        'contact'             => 'fas fa-id-card',
-        'email'               => 'fas fa-envelope',
-        'password'            => 'fas fa-lock',
-        'effacer'             => 'fas fa-eraser',
-        'annuler'             => 'fas fa-undo',
-        'modifier'            => 'fas fa-edit',
-        'ajouter'             => 'fas fa-plus-circle',
-        'supprimer'           => 'fas fa-trash',
         'ok'                  => 'fas fa-check',
-        'fermer'              => 'fas fa-times',
-        'calendrier'          => 'far fa-calendar-alt',
-        'pdf'                 => 'far fa-file-pdf',
-        'attention'           => 'fas fa-exclamation-triangle',
-        'renouveller'         => 'fas fa-recycle',
-        'info'                => 'fas fa-info-circle',
-        'aide'                => 'far fa-life-ring',
-        'inscription'         => 'fas fa-user-plus',
-        'reserver'            => 'fas fa-calendar-check',
-        'faq'                 => 'fas fa-question-circle',
-        'maison'              => 'fas fa-home',
-        'ville'               => 'fas fa-city',
-        'code_postal'         => 'fas fa-envelope-square',
-        'telephone_portable'  => 'fas fa-mobile-alt',
-        'telephone_fixe'      => 'fas fa-phone',
-        'activer'             => 'far fa-play-circle',
-        'liste'               => 'fas fa-list-ul',
-        'actif'               => 'far fa-check-square',
-        'inactif'             => 'far fa-square',
-        'erreur'              => 'fas fa-times-circle',
-        'question'            => 'far fa-question-circle',
-        'reponse'             => 'far fa-hand-point-right',
-        'monter'              => 'fas fa-chevron-circle-up',
-        'descendre'           => 'fas fa-chevron-circle-down',
-        'titre'               => 'fas fa-pen-fancy',
-        'contenu'             => 'far fa-file-alt',
-        'menu'                => 'fas fa-bars',
-        'carte_identite'      => 'far fa-id-card',
-        'photo'               => 'fas fa-camera',
-        'etoile'              => 'fas fa-star',
-        'en_cours'            => 'fas fa-arrow-alt-circle-right',
-        'notification'        => 'far fa-bell',
-        'remarques'           => 'far fa-sticky-note',
-        'genre'               => 'fas fa-neuter',
-        'horaire'             => 'far fa-clock',
-        'refuse'              => 'far fa-times-circle'
+        'close'              => 'fas fa-times'
     ];
