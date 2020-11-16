@@ -55,10 +55,10 @@ You can customize this component like any other :
 
 ## Contact
 
-Please use [GitLab](https://gitlab.com/Regnilk/fa-laravel) for making comments or suggestions or to report bugs.
+Please use [GitHub](https://github.com/regnilk/fa-laravel) for making comments or suggestions or to report bugs.
 
 ## License and Copyright
 
-[Fa-Laravel](https://gitlab.com/Regnilk/fa-laravel) written by Regnilk and is released under the [MIT License](LICENSE).
+[Fa-Laravel](https://github.com/regnilk/fa-laravel) written by Regnilk and is released under the [MIT License](LICENSE).
 
 Copyright &copy; 2020 Regnilk
