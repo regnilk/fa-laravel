@@ -8,7 +8,7 @@ Laravel component for FontAwesome integration with blade
 * [Configuration](#configuration)
 * [Usage](#usage)
 * [Contact](#contact)
-* [Licence & Copyright](#Licence and Copyright)
+* [License & Copyright](#License and Copyright)
 
 ## Installation
 
@@ -53,7 +53,7 @@ You can customize this component like any other :
 
 Please use [GitLab](https://gitlab.com/Regnilk/fa-laravel) for making comments or suggestions or to report bugs.
 
-## Licence and Copyright
+## License and Copyright
 
 [Fa-Laravel](https://gitlab.com/Regnilk/fa-laravel) written by Regnilk and is released under the [MIT License](LICENSE.md).
 
