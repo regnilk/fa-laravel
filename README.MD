@@ -8,7 +8,7 @@ Laravel component for FontAwesome integration with blade
 * [Configuration](#configuration)
 * [Usage](#usage)
 * [Contact](#contact)
-* [License & Copyright](#License and Copyright)
+* [License and Copyright](#License and Copyright)
 
 ## Installation
 

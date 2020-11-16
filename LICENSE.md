@@ -1,6 +1,6 @@
 # The MIT License (MIT)
 
-Copyright (c) 2013 Colin Viebrock <colin@viebrock.ca>
+Copyright &copy; 2020 Regnilk <jack@regnilk.fr>
 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to deal
