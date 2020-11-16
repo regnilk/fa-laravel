@@ -25,7 +25,7 @@
          */
         public function render()
         {
-            return view('fa');
+            return view('fa-laravel::fa');
         }
     
         public function grabIcon($icon)

@@ -1,11 +1,12 @@
 <?php
     
     namespace Regnilk\FaLaravel;
-    
-    use Illuminate\Contracts\Support\DeferrableProvider;
+
+    use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
+    use Illuminate\Support\Facades\Blade;
     use Regnilk\FaLaravel\Components\Fa;
 
-    class ServiceProvider extends \Illuminate\Support\ServiceProvider implements DeferrableProvider
+    class FaServiceProvider extends LaravelServiceProvider
     {
         /**
          * Indicates if loading of the provider is deferred.
@@ -21,18 +22,9 @@
          */
         public function register()
         {
-        
             $configPath = __DIR__ . '/../config/fa.php';
-            /*if ($this->app['config']->get('upwebservices') === null) {
-                $this->app['config']->set('upwebservices', require __DIR__ . '/../config/upwebservices.php');
-            }*/
         
             $this->mergeConfigFrom($configPath, 'fa');
-        
-            $this->app->bind('Fa', function () {
-                return Fa::class;
-            });
-        
         }
     
         /**
@@ -43,27 +35,20 @@
         public function boot()
         {
             $configPath = __DIR__ . '/../config/fa.php';
+            
             $this->publishes([$configPath => $this->getConfigPath()], 'config');
         
-            if ($this->app['config']->get('fa') === NULL) {
-                $this->app['config']->set('fa', require __DIR__ . '/../config/fa.php');
-            }
-        
-            $this->loadViewComponentsAs('fa', [Fa::class]);
-        
-            /*$this->publishes([
-                __DIR__ . '/../resources/views' => resource_path('views/vendor/upwebservices'),
-            ]);*/
-        }
+            $this->loadViewComponentsAs('fa', [
+                Fa::class
+            ]);
     
-        /**
-         * Get the services provided by the provider.
-         *
-         * @return array
-         */
-        public function provides()
-        {
-            return [Fa::class];
+            $this->loadViewsFrom(__DIR__ . '/Views', 'fa-laravel');
+        
+            Blade::component('fa', Fa::class);
+            
+            /*$this->publishes([
+                __DIR__ . '/Views' => resource_path('views/vendor/components'),
+            ]);*/
         }
     
         /**
