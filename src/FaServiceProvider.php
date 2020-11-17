@@ -45,10 +45,6 @@
             $this->loadViewsFrom(__DIR__ . '/Views', 'fa-laravel');
         
             Blade::component('fa', Fa::class);
-            
-            /*$this->publishes([
-                __DIR__ . '/Views' => resource_path('views/vendor/components'),
-            ]);*/
         }
     
         /**
