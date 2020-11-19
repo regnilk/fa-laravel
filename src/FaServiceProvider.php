@@ -22,9 +22,9 @@
          */
         public function register()
         {
-            $configPath = __DIR__ . '/../config/fa-laravel.php';
+            $configPath = dirname(__DIR__) . '/config/fa-laravel.php';
         
-            $this->mergeConfigFrom($configPath, 'fa');
+            $this->mergeConfigFrom($configPath, 'fa-laravel');
         }
     
         /**
@@ -34,7 +34,7 @@
          */
         public function boot()
         {
-            $configPath = __DIR__ . '/../config/fa-laravel.php';
+            $configPath = dirname(__DIR__) . '/config/fa-laravel.php';
             
             $this->publishes([$configPath => $this->getConfigPath()], 'config');
         
