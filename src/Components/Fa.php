@@ -37,6 +37,6 @@
          */
         public function grabIcon($icon)
         {
-            return config('fa.' . $icon);
+            return config('fa-laravel.' . $icon);
         }
     }
